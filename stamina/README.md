@@ -1,4 +1,4 @@
-# stamina modified
+## stamina modified
 this is a modified version of the default stamina plugin, its made to work along side shoottorp and the needs plugin
 
 for shoottorp it changes it to use some armor resist bonuses,

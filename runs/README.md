@@ -1,4 +1,4 @@
-# runs
+## runs
 this is a gigantic plugin (mainly because of the config) that creates off-map randomly generated runs. this however requires these areas to be made with the map (when i used this, i made custom versions of the maps we used that added in these areas). this also requires the loot plugin, and a lot of functions rely on vj base functionality (but may work without it? idk)
 
 i personally do not recommend using this because of the effort needed to set it up and the need for a custom map, and recommend using autoevents instead (its a simpler version of this that generates things inside the map that dont need to be accepted, it couples with the bountyboard plugin to make objectives like the run objectives, in theory at least, it was never actually tested lol), but i included this anyway as someone might get something from this idk

@@ -1,4 +1,4 @@
-# needs
+## needs
 a fairly simple hunger + thirst plugin
 
 has integration for my traits plugin but will work fine without it.

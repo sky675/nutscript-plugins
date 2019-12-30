@@ -1,4 +1,4 @@
-# autoevents
+## autoevents
 this is an ***UNTESTED*** new version of the run plugin, that changes it to be "events" inside the map, that just spawn on their own and dont require accepting.
 
 this is designed to be used with bountyboard, as some bounty board jobs are created when autoevents are created.

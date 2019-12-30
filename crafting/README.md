@@ -1,4 +1,4 @@
-# crafting
+## crafting
 a (relatively) simple but extensive crafting plugin
 - see config for recipe examples/template (i just left the recipes from my prior schema in there so its kinda a huge mess lmao)
 - in entities you can find ents to create workbenches from

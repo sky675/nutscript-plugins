@@ -1,4 +1,4 @@
-# bountyboard
+## bountyboard
 this is an ***untested*** odd job like system, with randomly generated jobs. this is designed to work along side autoevents. (as one of the example events only can spawn with an autoevents event type)
 
 there are 2 jobs that were implemented: a collect a number of an item job (issued whenever), and a bandit bounty job (spawned with the bandit camp type in autoevents).

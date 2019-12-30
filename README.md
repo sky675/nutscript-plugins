@@ -1,4 +1,4 @@
-## Plugins for NS2
+# Plugins for NS2
 Here are some nutscript plugins meant for the latest nutscript 2/1.1-beta version (as of 12/29/2019, but it should be fine with any later versions provided they dont make any huge changes).
 
 These are provided *as is*, but should be (relatively) bug free.
@@ -32,7 +32,7 @@ There are also some ***UNTESTED*** plugins here that I thought I'd include becau
 
 You will find information about each folder plugin inside it's own folder, and here is information on each of the single file plugins (and a library):
 
-# bleeding
+## bleeding
 a simple bleeding plugin.
 - you can toggle whether bleeding is on via the "bleed" config option under server.
 - there is shoottorp and traits integration, but (should) work fine without either (provided you delete said references).
@@ -48,7 +48,7 @@ mechanics:
 - if the value reaches 3, the bleed will be removed (if you want to change this value, you can change it via the local minbleed variable at the top of the file)
 - the ticking for bleeding slows while the player is typing, unless they have the nut data "typeImm" or the config option for it (bleedtypeimm) is disabled. shoottorp has a command to set typeImm on players (and an additional use for it), but its not necessary
 
-# dynamusic
+## dynamusic
 a (relatively) simple dynamic music plugin.
 - it has two states: passive and active.
 - active plays whenever an npc has you as their enemy, youve taken damage, a hook from a file that i havent converted to a plugin yet was ran, or you overrid the value to always be active. after 12 seconds of no actions that cause it to switch to active, it switches back to passive.
@@ -63,14 +63,14 @@ there are a handful of customizations and settings for this:
 - it will automatically detect and make available any nombat packs you have installed locally (provided they are formatted correctly with a* and c* file names)
 - it will also automatically detect and create packs (1 per combat music type detected) for dynamo music packs, however this needs at least 1 ambient and 1 of one combat music type (the one i initially downloaded to test only had combat music, so make sure to be sure you have at least one of both kinds), it also creates a pack that combines all the combat music into one
 
-# lives
+## lives
 an automated and customizable lives system, check the plugin for more info
 
-# obsitemesp
+## obsitemesp
 a very simple item esp for observer.
 - it lets you see where items are while in observer, it has an option on the quick menu (the cog in the top right corner of your screen while holding c) to toggle this.
 
-# sh_newchar
+## sh_newchar
 this is NOT a plugin, this was implemented as a library, so it should go in your schema under schema/libs/
 
 this is a bunch of (sometimes janky) utility stuff used to support seperated models on player (ex the actual player model being a head, while the body is bonemerged on, this does this automatically).

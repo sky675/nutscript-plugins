@@ -1,4 +1,4 @@
-# skynutedits
+## skynutedits
 this is a collection of changes/small modifications ive done and just put into a single plugin
 
 a list of contents:
