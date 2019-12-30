@@ -1,4 +1,4 @@
-#traits
+# traits
 a plugin for a traits/skills system
 
 sort of inspired by chancer's traits plugin in respite (i did this from scratch tho not based on that one)

@@ -1,4 +1,4 @@
-#autoevents
+# autoevents
 this is an ***UNTESTED*** new version of the run plugin, that changes it to be "events" inside the map, that just spawn on their own and dont require accepting.
 this is designed to be used with bountyboard, as some bounty board jobs are created when autoevents are created
 i never got around to actually setting up areas for this, however there are some example event types there, and setting up areas is about the same as setting up areas for runs, but instead of defining the objectives in the area, theyre seperate and you just specify what types are valid for each area

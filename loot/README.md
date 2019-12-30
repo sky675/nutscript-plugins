@@ -1,4 +1,4 @@
-#loot
+# loot
 randomly spawning loot based on loot tables
 
 tables can have invidual item chances, or table chances (which then have item chances), but CANNOT be mixed, tables with table chances are defined by `istableloot = true,` in that table

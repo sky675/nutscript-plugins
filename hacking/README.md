@@ -1,4 +1,4 @@
-#hacking
+# hacking
 this is a plugin that allows players to do "hacks" on specified types of entities, uses traits plugin. i dont think anything else is required but i may be wrong
 
 requires special config for hacking entities on the map,

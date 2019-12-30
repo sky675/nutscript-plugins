@@ -1,4 +1,4 @@
-#pda
+# pda
 this is a stalker-based pda plugin
 it includes various kinds of chat commands and an interactable pda (its main use is to set your pda handle but it can be modified to add other menus)
 this is the image i used for the pda background: https://vignette.wikia.nocookie.net/stalker/images/d/dd/Ui_pda_eng.png

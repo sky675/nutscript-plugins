@@ -1,4 +1,4 @@
-#radio modified
+# radio modified
 this is a modified version of the radio plugin found in chessnut's hl2rp schema
 besides the jamming checks (something i wont release because i implemented it yuckily and i dont like it), 
 the main thing thats different about this is the language fixes, and an additional radio command that is a whisper, but i figured id include it anyway
