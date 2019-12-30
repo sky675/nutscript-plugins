@@ -749,9 +749,9 @@ function PLUGIN:SpawnAtPos(tabl, pos, callback, printtable)
 	if(item.base == "base_suit") then
 		data["armor"] = {}
 		if(item.armor) then
+			data["armor"].durability = math.random(durabilityMin, durabilityMax)
 		for k,v in pairs(item.armor) do
 			data["armor"][k] = v
-			data["armor"][k].durability = math.random(durabilityMin, durabilityMax)
 		end
 		end
 	end
