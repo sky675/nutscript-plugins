@@ -1,0 +1,10 @@
+ITEM.name = "Spool of Wire"
+ITEM.desc = "A spool of some wire."
+ITEM.model = "models/fallout/components/spool_1.mdl"
+ITEM.category = "Components"
+ITEM.price = 5
+ITEM.flag = "1"
+ITEM.skin = 0
+ITEM.countMax = 20
+ITEM.maxQuantity = 20
+ITEM.permit = "elec"

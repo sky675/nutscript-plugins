@@ -1,0 +1,9 @@
+ITEM.name = "Jar of Antiseptic"
+ITEM.desc = "A jar of antiseptic for crafting."
+ITEM.model = "models/fallout/components/jar.mdl"
+ITEM.skin = 4
+ITEM.category = "Components"
+ITEM.price = 12
+ITEM.flag = "1"
+ITEM.countMax = 5
+ITEM.maxQuantity = 5

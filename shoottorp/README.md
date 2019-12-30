@@ -1,0 +1,16 @@
+#shoottorp
+this is a big plugin with lots of features in it.
+requires: traits, bleeding, and nightvision, however traits and bleeding are mainly for the medical example items included, i dont believe theyre used in the main plugin parts
+its features:
+- an armor level system, that only allows certain ammo types to penetrate certain levels of armor on suits (see the ammoProtect table)
+- suits, a new type of clothing item that can have armor levels, durability, and a collection of "resists", which can be used for multiple things besides actual damage resistances (nv, stamina mods, etc), they can have model replacements, bodygroup changes, or change newchar models (using the newchar lib, see the main readme for more info)
+- an upgrade system, allows you (provided you have the U flag) to combine upgrades with applicable suits (upgradepaths file) to upgrade their armor or resists, however the examples in the upgrade_config file no longer work, the string resists should be replaced with dmg type enums. this system in general is kinda confusing and everywhere, its there and should work though
+- a mass item creation system for creating many items (suits, outfits, can technically be used to make anything but only currently only accounts for suits and outfits)
+- hp-based movespeed slow
+- a damage report message shown to you and who you were hit by in chat, includes: the ammo type hit with (if defined in the plugin, check ammoStrings table), where you were hit (requires the model being used to have hitboxes), how far away it was, the bearing you were hit from based on where youre currently looking, and whether or not it penetrated based on the armor of the suit(s) you are currently wearing. can be toggled off
+- a toggleable downing system, that allows users to be revived when they die (medical item examples are included), however this requires commands to be modified with a check for `client:getNetVar("neardeath")` to prevent them from using it while in a downed state (all of the applicable functions in this entire repo do this). after the downed respawn timer is up, downed players can then type acd to respawn (or remain in a downed state if they want to for whatever reason, it wont autorespawn them)
+- with downing off, no player will take any damage from other players. the damage report will be shown whether downing is on or off (assuming the message is still toggled on), and a damage log will also be created for admins in console (lists the attacker and target, the weapon they were hit with, whether they were protected or if they were typing (see below, it says void then))
+- typing protection, if someone is shot while typing, it will tell the attacker you were typing and let you know you were hit, and no damage will be taken. this can be disabled per player via the command `settypingimm`
+- an alternate (and imo better) way of preventing sprinting while out of stamina
+- preventing of jumping when out of stamina (the _skynutedits plugin has a similar thing that also removes stamina when jumping)
+- leg breaking on sufficient fall speed, this prevents you from sprinting until either the command `resetstatuses` is run on you, or a medical item that repairs your legs (like medkit from the medical examples)

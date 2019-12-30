@@ -1,0 +1,10 @@
+ITEM.name = "Small Tech"
+ITEM.desc = "Some small bits of tech."
+ITEM.model = "models/items/materials_textolite.mdl"--models/fallout/components/box.mdl"
+ITEM.category = "Components"
+ITEM.price = 7
+ITEM.flag = "1"
+ITEM.skin = 0
+ITEM.countMax = 25
+ITEM.maxQuantity = 25
+ITEM.permit = "elec"
