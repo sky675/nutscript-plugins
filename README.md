@@ -8,6 +8,7 @@ Feel free to do whatever you want with them, I just ask you to:
 
 Nearly all of these are designed to work with each other, but you should be able to edit out most of these instances of it referencing another plugin if you arent using that plugin.
 The only plugin that actually checks if you have another plugin before trying to use it is the crafting plugin, in which it checks for the traits plugin.
+I've tried to note whenever a plugin requires or uses another plugin, but I might have missed some.
 
 MANY of these plugins don't use default hl2/ep2/css models/mats/sounds, and some of them are rare/custom (not easily available), so I recommend for you to go through and change models you dont have.
 
